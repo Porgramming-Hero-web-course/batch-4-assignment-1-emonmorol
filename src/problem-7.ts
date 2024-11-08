@@ -5,7 +5,7 @@
         constructor(public make:string,public model:string,public year:number){}
 
         getCarAge(){
-            return (2024-this.year);
+            return (2024 - this.year);
         }
 
     }

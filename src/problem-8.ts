@@ -10,8 +10,8 @@
     }
     const person = { name: "Alice", age: 30, email: "alice@example.com" };
 
-    console.log(validateKeys(person, ["name", "age"])); // Output: true
-    console.log(validateKeys(person, ["name", "address"])); // Output: false
-    
+    console.log(validateKeys(person, ["name", "age"]));
+    console.log(validateKeys(person, ["name", "address"]));
+
     //
 }
